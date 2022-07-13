@@ -34,3 +34,11 @@ main {
 #textarea {
   resize: none;
 }
+
+.rodape {
+    background-color: #3c404b;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    color: #f8f8f8; 
+}
