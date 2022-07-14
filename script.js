@@ -5,7 +5,7 @@ const checkEnviar = document.getElementById('agreement');
 const btnEnviar = document.getElementById('submit-btn');
 const naoEnvia = true;
 btnEnviar.disabled = naoEnvia;
-let contador = 1;
+// let contador = 1;
 
 function validaLogin(event) {
   event.preventDefault();
@@ -17,12 +17,10 @@ function validaLogin(event) {
 }
 
 function agreeEnviar() {
-  if (contador % 2 !== 0) {
+  if (checkEnviar.checked === true) {
     btnEnviar.disabled = !naoEnvia;
-    contador += 1;
   } else {
     btnEnviar.disabled = naoEnvia;
-    contador += 1;
   }
 }
 
