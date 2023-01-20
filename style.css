@@ -60,6 +60,15 @@ main {
   height: 500px;
 }
 
+#contianer-principal {
+  display: flex;
+}
+
+.contianer-principal-filho {
+  display: flex;
+  flex-direction: column;
+}
+
 #textarea {
   resize: none;
 }
